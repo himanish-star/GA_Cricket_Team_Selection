@@ -30,4 +30,11 @@ Genetic Approach to making a team selection, based on previous performance
  ```Shell
  $ cd root_directory
  $ node main.js
+ $ node plotter.js
  ```
+ After this click on the link generated:
+ 
+ Sample Image:
+ 
+ ![](https://user-images.githubusercontent.com/30361728/44309916-88a5a800-a3eb-11e8-90c9-638e3258c807.png)
+ 
