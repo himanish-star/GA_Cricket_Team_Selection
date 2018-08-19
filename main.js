@@ -1,6 +1,6 @@
 const player_stats = require("./data.json")
 const fs = require('fs');
-const population_size = 5;
+const population_size = 4;
 const t_players = 26;
 const s_players = 11;
 const t_generations = 1000;
@@ -53,8 +53,8 @@ function calculateFitness(chromosome) {
     const data = player_stats[pid];
     const GP = data.played;
     const GL = data.lost;
-    const LMW = data.won;
-    const fit_val = (LMW)/(GP);
+    const LMW = data.prev_hist;
+    const fit_val = (1-(GL/GP)+LMW)/(1+LMW);
     fitness_values[i] = fit_val;
     fitnessAvg += fit_val;
   }
