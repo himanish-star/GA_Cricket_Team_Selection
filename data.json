@@ -1,0 +1,236 @@
+[
+  {
+    "pid": 1,
+    "name": "Shahid Afridi",
+    "played": 325,
+    "won": 173,
+    "lost": 152,
+    "prev_hist": 0,
+    "spec": "ALL"
+  },
+  {
+    "pid": 2,
+    "name": "Abdul Razzaq",
+    "played": 262,
+    "won": 143,
+    "lost": 112,
+    "prev_hist": 1,
+    "spec": "ALL"
+  },
+  {
+    "pid": 3,
+    "name": "Fawad Alam",
+    "played": 27,
+    "won": 13,
+    "lost": 14,
+    "prev_hist": 4,
+    "spec": "BAT"
+  },
+  {
+    "pid": 4,
+    "name": "Misbah-ul-Haq",
+    "played": 78,
+    "won": 52,
+    "lost": 24,
+    "prev_hist": 5,
+    "spec": "BAT"
+  },
+  {
+    "pid": 5,
+    "name": "Mohammad Yousuf",
+    "played": 288,
+    "won": 164,
+    "lost": 118,
+    "prev_hist": 5,
+    "spec": "BAT"
+  },
+  {
+    "pid": 6,
+    "name": "Umar Gul",
+    "played": 90,
+    "won": 55,
+    "lost": 34,
+    "prev_hist": 3,
+    "spec": "BOW"
+  },
+  {
+    "pid": 7,
+    "name": "Younis khan",
+    "played": 223,
+    "won": 125,
+    "lost": 92,
+    "prev_hist": 0,
+    "spec": "BAT"
+  },
+  {
+    "pid": 8,
+    "name": "Umar Akmal",
+    "played": 43,
+    "won": 21,
+    "lost": 21,
+    "prev_hist": 5,
+    "spec": "BAT"
+  },
+  {
+    "pid": 9,
+    "name": "M. Sami",
+    "played": 83,
+    "won": 48,
+    "lost": 33,
+    "prev_hist": 0,
+    "spec": "BOW"
+  },
+  {
+    "pid": 10,
+    "name": "Saeed Ajmal",
+    "played": 45,
+    "won": 21,
+    "lost": 24,
+    "prev_hist": 0,
+    "spec": "BOW"
+  },
+  {
+    "pid": 11,
+    "name": "Kamran Akmal",
+    "played": 137,
+    "won": 74,
+    "lost": 59,
+    "prev_hist": 3,
+    "spec": "WC"
+  },
+  {
+    "pid": 12,
+    "name": "Imran Farhat",
+    "played": 37,
+    "won": 19,
+    "lost": 18,
+    "prev_hist": 4,
+    "spec": "BAT"
+  },
+  {
+    "pid": 13,
+    "name": "Taufeeq Umar",
+    "played": 22,
+    "won": 13,
+    "lost": 9,
+    "prev_hist": 2,
+    "spec": "BAT"
+  },
+  {
+    "pid": 14,
+    "name": "Sohail Tanvir",
+    "played": 36,
+    "won": 23,
+    "lost": 12,
+    "prev_hist": 3,
+    "spec": "BOW"
+  },
+  {
+    "pid": 15,
+    "name": "Asad Shafiq",
+    "played": 21,
+    "won": 12,
+    "lost": 9,
+    "prev_hist": 1,
+    "spec": "BAT"
+  },
+  {
+    "pid": 16,
+    "name": "Azhar Mahmood",
+    "played": 143,
+    "won": 73,
+    "lost": 66,
+    "prev_hist": 1,
+    "spec": "ALL"
+  },
+  {
+    "pid": 17,
+    "name": "Imran Nazir",
+    "played": 79,
+    "won": 45,
+    "lost": 33,
+    "prev_hist": 2,
+    "spec": "BAT"
+  },
+  {
+    "pid": 18,
+    "name": "Shoaib Malik",
+    "played": 192,
+    "won": 106,
+    "lost": 81,
+    "prev_hist": 5,
+    "spec": "ALL"
+  },
+  {
+    "pid": 19,
+    "name": "Ahmed Shehzad",
+    "played": 19,
+    "won": 11,
+    "lost": 7,
+    "prev_hist": 0,
+    "spec": "BAT"
+  },
+  {
+    "pid": 20,
+    "name": "Mohammad Hafeez",
+    "played": 79,
+    "won": 39,
+    "lost": 38,
+    "prev_hist": 5,
+    "spec": "BAT"
+  },
+  {
+    "pid": 21,
+    "name": "Salman Butt",
+    "played": 78,
+    "won": 43,
+    "lost": 34,
+    "prev_hist": 5,
+    "spec": "BAT"
+  },
+  {
+    "pid": 22,
+    "name": "Mohammad Asif",
+    "played": 38,
+    "won": 16,
+    "lost": 19,
+    "prev_hist": 5,
+    "spec": "BOW"
+  },
+  {
+    "pid": 23,
+    "name": "Mohammad Amir",
+    "played": 15,
+    "won": 5,
+    "lost": 10,
+    "prev_hist": 2,
+    "spec": "BOW"
+  },
+  {
+    "pid": 24,
+    "name": "Wahab Riaz",
+    "played": 22,
+    "won": 15,
+    "lost": 6,
+    "prev_hist": 0,
+    "spec": "BOW"
+  },
+  {
+    "pid": 25,
+    "name": "Sarfaraz Ahmed",
+    "played": 6,
+    "won": 3,
+    "lost": 0,
+    "prev_hist": 4,
+    "spec": "WC"
+  },
+  {
+    "pid": 26,
+    "name": "Zulqurnan Haider",
+    "played": 2,
+    "won": 2,
+    "lost": 0,
+    "prev_hist": 1,
+    "spec": "WC"
+  }
+]
