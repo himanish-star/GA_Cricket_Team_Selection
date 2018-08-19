@@ -1,7 +1,7 @@
 {
   "name": "ga_",
   "version": "1.0.0",
-  "description": "",
+  "description": "Genetic Approach to making a team selection, based on previous performance",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,5 +11,14 @@
   "dependencies": {
     "ape-cricket": "^1.1.7",
     "request": "^2.88.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/himanish-star/GA_Cricket_Team_Selection.git"
+  },
+  "bugs": {
+    "url": "https://github.com/himanish-star/GA_Cricket_Team_Selection/issues"
+  },
+  "homepage": "https://github.com/himanish-star/GA_Cricket_Team_Selection#readme"
 }
