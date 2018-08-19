@@ -69,7 +69,8 @@ async function startProcess() {
     // console.log('generation: ' + generation);
     if(generation == 9) {
       population[0].forEach(gene => {
-        console.log(player_stats[gene-1].name);
+        const { name, spec } = player_stats[gene-1];
+        console.log(name, spec);
       })
     }
     let fitnessIndexes = [];
