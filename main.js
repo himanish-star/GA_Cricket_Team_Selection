@@ -1,8 +1,9 @@
 const player_stats = require("./data.json")
-const population_size = 10;
+const fs = require('fs');
+const population_size = 5;
 const t_players = 26;
 const s_players = 11;
-
+const t_generations = 1000;
 function generateRandomChromosome() {
   let used = new Array(t_players);
   for(let i=0; i<t_players; i++)
@@ -53,7 +54,7 @@ function calculateFitness(chromosome) {
     const GP = data.played;
     const GL = data.lost;
     const LMW = data.won;
-    const fit_val = (1 - (GL/GP) + LMW)/(1 + LMW);
+    const fit_val = (LMW)/(GP);
     fitness_values[i] = fit_val;
     fitnessAvg += fit_val;
   }
@@ -64,15 +65,11 @@ async function startProcess() {
   //#step 1: initialize population of size population_size
   let population = await initializePopulation();
 
+  let fitIndexesX = [];
   //#step 2: calculate fitness of each chromosome
-  for(let generation = 0; generation < 10; generation++) {
-    // console.log('generation: ' + generation);
-    if(generation == 9) {
-      population[0].forEach(gene => {
-        const { name, spec } = player_stats[gene-1];
-        console.log(name, spec);
-      })
-    }
+  for(let generation = 0; generation < t_generations; generation++) {
+    console.log('generation: ' + generation);
+
     let fitnessIndexes = [];
     population.forEach(async (chromosome, i) => {
       await fitnessIndexes.push({
@@ -80,9 +77,17 @@ async function startProcess() {
         fitIndex: calculateFitness(chromosome)
       });
     });
-    fitnessIndexes.sort((a, b) => {
+    await fitnessIndexes.sort((a, b) => {
       return a.fitIndex < b.fitIndex;
     })
+
+    console.log(fitnessIndexes[0].fitIndex);
+    fitIndexesX.push(fitnessIndexes[0].fitIndex);
+    // population[fitnessIndexes[0].crNum].forEach(gene => {
+    //   const { name, spec } = player_stats[gene-1];
+    //   console.log(name, spec);
+    // })
+    // console.log('\n\n\n');
     //population sorted on their basis of fitnessIndexes
 
     //#step 3: selection for crossover and crossover
@@ -124,6 +129,14 @@ async function startProcess() {
     }
     population = new_population;
   }
+  let genIndexesY = new Array(t_generations);
+  for(let i=0; i<t_generations; i++)
+    genIndexesY[i]=i+1;
+  fs.writeFileSync(__dirname+'/plot_data.json',
+    JSON.stringify({
+      "y_coords": fitIndexesX,
+      "x_coords": genIndexesY
+    }, null, 4));
 }
 
 // start of the Genetic Approach

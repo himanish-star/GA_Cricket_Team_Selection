@@ -10,6 +10,8 @@
   "license": "ISC",
   "dependencies": {
     "ape-cricket": "^1.1.7",
+    "express": "^4.16.3",
+    "plotly": "^1.0.6",
     "request": "^2.88.0"
   },
   "devDependencies": {},
