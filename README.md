@@ -32,9 +32,9 @@ Genetic Approach to making a team selection, based on previous performance
  $ node main.js
  $ node plotter.js
  ```
- After this click on the link generated:
+ After this click on the link generated at `plotly`:
  
- Sample Image:
+ ### Sample Image shown below:
  
  ![](https://user-images.githubusercontent.com/30361728/44309916-88a5a800-a3eb-11e8-90c9-638e3258c807.png)
  
