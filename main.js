@@ -1,6 +1,6 @@
 const player_stats = require("./data.json")
 const fs = require('fs');
-const population_size = 4;
+const population_size = 10;
 const t_players = 26;
 const s_players = 11;
 const t_generations = 1000;
@@ -65,7 +65,7 @@ async function startProcess() {
   //#step 1: initialize population of size population_size
   let population = await initializePopulation();
 
-  let fitIndexesX = [];
+  let fitIndexesX = [], fitIndexesX2 = [];
   //#step 2: calculate fitness of each chromosome
   for(let generation = 0; generation < t_generations; generation++) {
     console.log('generation: ' + generation);
@@ -81,15 +81,12 @@ async function startProcess() {
       return a.fitIndex < b.fitIndex;
     })
 
-    console.log(fitnessIndexes[0].fitIndex);
+    let avgFitIndex = 0;
+    fitnessIndexes.forEach(e => {
+      avgFitIndex += e.fitIndex;
+    })
     fitIndexesX.push(fitnessIndexes[0].fitIndex);
-    // population[fitnessIndexes[0].crNum].forEach(gene => {
-    //   const { name, spec } = player_stats[gene-1];
-    //   console.log(name, spec);
-    // })
-    // console.log('\n\n\n');
-    //population sorted on their basis of fitnessIndexes
-
+    fitIndexesX2.push(avgFitIndex/population_size);
     //#step 3: selection for crossover and crossover
     let new_population = [];
     for(let i=0;i<population_size/2;i++) {
@@ -136,7 +133,12 @@ async function startProcess() {
     JSON.stringify({
       "y_coords": fitIndexesX,
       "x_coords": genIndexesY
-    }, null, 4));
+    }, null, 2));
+  fs.writeFileSync(__dirname+'/plot_data_2.json',
+    JSON.stringify({
+      "y_coords": fitIndexesX2,
+      "x_coords": genIndexesY
+    }, null, 1));
 }
 
 // start of the Genetic Approach
