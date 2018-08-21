@@ -1,16 +1,19 @@
 const express = require('express');
 const app = express();
-const data1 = require('./plot_data.json');
-const data2 = require('./plot_data_2.json');
+const startProcess = require('./main.js').startProcess;
+const bodyParser = require('body-parser');
 
 app.use(express.static('static'));
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: true}))
 
 app.get('/', (req, res) => {
   res.sendFile(__dirname+'/static/plotter.html');
 })
 
-app.get('/json_data', (req, res) => {
-  res.send({ data1, data2 });
+app.post('/json_data', async (req, res) => {
+  const response = await startProcess(req.body.gen, req.body.pop);
+  res.send({ data1: response.data1, data2: response.data2 });
 })
 
 app.listen(3000, () => {

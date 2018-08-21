@@ -1,9 +1,9 @@
 const player_stats = require("./data.json")
 const fs = require('fs');
-const population_size = 10;
+let population_size = 10;
 const t_players = 26;
 const s_players = 11;
-const t_generations = 1000;
+let t_generations = 1000;
 function generateRandomChromosome() {
   let used = new Array(t_players);
   for(let i=0; i<t_players; i++)
@@ -61,15 +61,15 @@ function calculateFitness(chromosome) {
   return fitnessAvg/16;
 }
 
-async function startProcess() {
+async function startProcess(gen, pop) {
+  t_generations = gen;
+  population_size = pop;
   //#step 1: initialize population of size population_size
   let population = await initializePopulation();
 
   let fitIndexesX = [], fitIndexesX2 = [];
   //#step 2: calculate fitness of each chromosome
   for(let generation = 0; generation < t_generations; generation++) {
-    console.log('generation: ' + generation);
-
     let fitnessIndexes = [];
     population.forEach(async (chromosome, i) => {
       await fitnessIndexes.push({
@@ -139,7 +139,17 @@ async function startProcess() {
       "y_coords": fitIndexesX2,
       "x_coords": genIndexesY
     }, null, 1));
+  return {
+    data1: {
+    "y_coords": fitIndexesX,
+    "x_coords": genIndexesY
+    },
+    data2: {
+    "y_coords": fitIndexesX2,
+    "x_coords": genIndexesY
+    }
+  }
 }
 
 // start of the Genetic Approach
-startProcess();
+module.exports = { startProcess };
