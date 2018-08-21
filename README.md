@@ -29,10 +29,9 @@ Genetic Approach to making a team selection, based on previous performance
  
  ```Shell
  $ cd root_directory
- $ node main.js
- $ node plotter.js
+ $ npm start
  ```
- After this click on the link generated at `plotly`:
+ open http://localhost:3000/
  
  ### Sample Image shown below:
  
