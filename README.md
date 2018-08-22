@@ -1,6 +1,8 @@
 # GA_Cricket_Team_Selection
 Genetic Approach to making a team selection, based on previous performance
 
+live demo: https://cricket-selection-ga.herokuapp.com/
+
 ### Steps used:
 1. Initialize population
 2. Calculate fitness values for each `chromosome`
@@ -25,7 +27,7 @@ Genetic Approach to making a team selection, based on previous performance
  - Fitness function to be improved
  - `d3.js` and `plotly.js` to be used for graphical representation
  
- ### Steps to download and run code
+ ### Steps to download and run code locally
  
  ```Shell
  $ git clone https://github.com/himanish-star/GA_Cricket_Team_Selection.git
@@ -33,8 +35,3 @@ Genetic Approach to making a team selection, based on previous performance
  $ npm start
  ```
  open http://localhost:3000/
- 
- ### Sample Image shown below:
- 
- ![](https://user-images.githubusercontent.com/30361728/44309916-88a5a800-a3eb-11e8-90c9-638e3258c807.png)
- 
