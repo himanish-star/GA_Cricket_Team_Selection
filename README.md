@@ -25,14 +25,14 @@ Genetic Approach to making a team selection, based on previous performance
  - Fitness function to be improved
  - `d3.js` and `plotly.js` to be used for graphical representation
  
- ### Steps to run code
+ ### Steps to download and run code
  
  ```Shell
- $ cd root_directory
- $ node main.js
- $ node plotter.js
+ $ git clone https://github.com/himanish-star/GA_Cricket_Team_Selection.git
+ $ cd GA_Cricket_Team_Selection
+ $ npm start
  ```
- After this click on the link generated at `plotly`:
+ open http://localhost:3000/
  
  ### Sample Image shown below:
  
