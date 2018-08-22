@@ -16,6 +16,6 @@ app.post('/json_data', async (req, res) => {
   res.send({ data1: response.data1, data2: response.data2 });
 })
 
-app.listen(3000, () => {
-  console.log("started http://localhost:3000");
+app.listen(process.env.PORT, () => {
+  console.log(process.env.PORT);
 })
