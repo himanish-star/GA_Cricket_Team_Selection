@@ -1,7 +1,8 @@
 # GA_Cricket_Team_Selection
 Genetic Approach to making a team selection, based on previous performance
 
-live demo: https://cricket-selection-ga.herokuapp.com/
+### live demo: 
+https://cricket-selection-ga.herokuapp.com/
 
 ### Steps used:
 1. Initialize population
