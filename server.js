@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const startProcess = require('./main.js').startProcess;
+const startProcess = require('./backend/main.js').startProcess;
 const bodyParser = require('body-parser');
 
 app.use(express.static('static'));

@@ -1,4 +1,4 @@
-const player_stats = require("./data.json")
+const player_stats = require("./data files/data.json")
 const fs = require('fs');
 let population_size = 10;
 const t_players = 26;
@@ -129,12 +129,12 @@ async function startProcess(gen, pop) {
   let genIndexesY = new Array(t_generations);
   for(let i=0; i<t_generations; i++)
     genIndexesY[i]=i+1;
-  fs.writeFileSync(__dirname+'/plot_data.json',
+  fs.writeFileSync(__dirname+'/data files/plot_data.json',
     JSON.stringify({
       "y_coords": fitIndexesX,
       "x_coords": genIndexesY
     }, null, 2));
-  fs.writeFileSync(__dirname+'/plot_data_2.json',
+  fs.writeFileSync(__dirname+'/data files/plot_data_2.json',
     JSON.stringify({
       "y_coords": fitIndexesX2,
       "x_coords": genIndexesY

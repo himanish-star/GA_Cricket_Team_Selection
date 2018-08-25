@@ -1,5 +1,5 @@
-const plot_data = require('./plot_data.json');
-const plot_data_2 = require('./plot_data_2.json');
+const plot_data = require('./data files/plot_data.json');
+const plot_data_2 = require('./data files/plot_data_2.json');
 
 const plotly = require('plotly')({
   "username": "himanish-star",
