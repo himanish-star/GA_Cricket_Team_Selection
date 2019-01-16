@@ -1,0 +1,200 @@
+[
+	{
+		"name": "Jasprit Bumrah",
+		"currentAge": "23 years 326 days",
+		"formatsPlayed": 4,
+		"playingRole": "Bowler",
+		"bowlingAve": "22.69",
+		"battingAve": "5.50",
+		"matches": "27"
+	},
+	{
+		"name": "Bhuvneshwar Kumar",
+		"currentAge": "27 years 265 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "36.16",
+		"battingAve": "14.12",
+		"matches": "77"
+	},
+	{
+		"name": "MS Dhoni",
+		"currentAge": "36 years 113 days",
+		"formatsPlayed": 5,
+		"playingRole": "Wicketkeeper batsman",
+		"bowlingAve": "31.00",
+		"battingAve": "51.85",
+		"matches": "308"
+	},
+	{
+		"name": "Shikhar Dhawan",
+		"currentAge": "31 years 327 days",
+		"formatsPlayed": 5,
+		"playingRole": "Opening batsman",
+		"bowlingAve": "-",
+		"battingAve": "44.32",
+		"matches": "92"
+	},
+	{
+		"name": "Virat Kohli",
+		"currentAge": "28 years 357 days",
+		"formatsPlayed": 5,
+		"playingRole": "Middle-order batsman",
+		"bowlingAve": "166.25",
+		"battingAve": "55.38",
+		"matches": "201"
+	},
+	{
+		"name": "Manish Pandey",
+		"currentAge": "28 years 341 days",
+		"formatsPlayed": 4,
+		"playingRole": "Top-order batsman",
+		"bowlingAve": "-",
+		"battingAve": "39.27",
+		"matches": "22"
+	},
+	{
+		"name": "Dinesh Karthik",
+		"currentAge": "32 years 148 days",
+		"formatsPlayed": 5,
+		"playingRole": "Wicketkeeper batsman",
+		"bowlingAve": "-",
+		"battingAve": "29.91",
+		"matches": "75"
+	},
+	{
+		"name": "Wriddhiman Saha",
+		"currentAge": "33 years 4 days",
+		"formatsPlayed": 4,
+		"playingRole": "Wicketkeeper batsman",
+		"bowlingAve": "-",
+		"battingAve": "13.66",
+		"matches": "9"
+	},
+	{
+		"name": "Ambati Rayudu",
+		"currentAge": "32 years 32 days",
+		"formatsPlayed": 4,
+		"playingRole": "Middle-order batsman",
+		"bowlingAve": "37.00",
+		"battingAve": "50.23",
+		"matches": "34"
+	},
+	{
+		"name": "Hardik Pandya",
+		"currentAge": "24 years 17 days",
+		"formatsPlayed": 5,
+		"playingRole": "Allrounder",
+		"bowlingAve": "34.45",
+		"battingAve": "38.40",
+		"matches": "28"
+	},
+	{
+		"name": "Kedar Jadhav",
+		"currentAge": "32 years 216 days",
+		"formatsPlayed": 4,
+		"playingRole": "Batsman",
+		"bowlingAve": "26.75",
+		"battingAve": "43.27",
+		"matches": "36"
+	},
+	{
+		"name": "Kuldeep Yadav",
+		"currentAge": "22 years 318 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "26.47",
+		"battingAve": "2.00",
+		"matches": "12"
+	},
+	{
+		"name": "Umesh Yadav",
+		"currentAge": "30 years 1 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "32.25",
+		"battingAve": "8.77",
+		"matches": "71"
+	},
+	{
+		"name": "Amit Mishra",
+		"currentAge": "34 years 335 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "23.60",
+		"battingAve": "5.37",
+		"matches": "36"
+	},
+	{
+		"name": "Yuzvendra Chahal",
+		"currentAge": "27 years 97 days",
+		"formatsPlayed": 4,
+		"playingRole": "Bowler",
+		"bowlingAve": "27.57",
+		"battingAve": "1.00",
+		"matches": "13"
+	},
+	{
+		"name": "Ravindra Jadeja",
+		"currentAge": "28 years 326 days",
+		"formatsPlayed": 5,
+		"playingRole": "Allrounder",
+		"bowlingAve": "35.87",
+		"battingAve": "31.37",
+		"matches": "136"
+	},
+	{
+		"name": "Lokesh Rahul",
+		"currentAge": "25 years 193 days",
+		"formatsPlayed": 5,
+		"playingRole": "Opening batsman",
+		"bowlingAve": "-",
+		"battingAve": "35.42",
+		"matches": "10"
+	},
+	{
+		"name": "Ishant Sharma",
+		"currentAge": "29 years 53 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "30.98",
+		"battingAve": "4.80",
+		"matches": "80"
+	},
+	{
+		"name": "Ashish Nehra",
+		"currentAge": "38 years 182 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "31.72",
+		"battingAve": "5.64",
+		"matches": "120"
+	},
+	{
+		"name": "Ashok Dinda",
+		"currentAge": "33 years 217 days",
+		"formatsPlayed": 4,
+		"playingRole": "Bowler",
+		"bowlingAve": "51.00",
+		"battingAve": "4.20",
+		"matches": "13"
+	},
+	{
+		"name": "Ajinkya Rahane",
+		"currentAge": "29 years 144 days",
+		"formatsPlayed": 5,
+		"playingRole": "Top-order batsman",
+		"bowlingAve": "-",
+		"battingAve": "35.27",
+		"matches": "84"
+	},
+	{
+		"name": "Mohammed Shami",
+		"currentAge": "27 years 53 days",
+		"formatsPlayed": 5,
+		"playingRole": "Bowler",
+		"bowlingAve": "25.37",
+		"battingAve": "10.54",
+		"matches": "50"
+	}
+]
